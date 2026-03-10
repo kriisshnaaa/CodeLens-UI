@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
-import "./index.css";        // ✅ REQUIRED (layout + structure)
-import "./styles/theme.css"; // ✅ REQUIRED (colors + theme)
+// import "./index.css";
+import "./styles/theme.css";
 import { Toaster } from "react-hot-toast";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
