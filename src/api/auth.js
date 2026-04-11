@@ -19,7 +19,7 @@ export async function getCurrentUser() {
 
 
 export function loginWithGoogle() {
-  window.location.href = `${API_URL}/auth/google`;
+  window.location.href = `${import.meta.env.VITE_API_URL}/auth/google`;
 }
 
 export function logout() {
