@@ -27,7 +27,7 @@ export default function AIChat({ code, explanation, onAppendExplanation }) {
 
       const data = await res.json();
 
-      // ✅ Append directly to explanation
+      //  Append directly to explanation
       onAppendExplanation(`
 
 ---

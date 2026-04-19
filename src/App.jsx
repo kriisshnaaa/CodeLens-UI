@@ -37,7 +37,7 @@ export default function App() {
 /* ---------------- AUTH ---------------- */
 useEffect(() => {
   const initAuth = async () => {
-    // 1️⃣ Check token from redirect URL
+    // 1 Check token from redirect URL
     const params = new URLSearchParams(window.location.search);
     const tokenFromUrl = params.get("token");
 
@@ -48,7 +48,7 @@ useEffect(() => {
       window.history.replaceState({}, document.title, "/");
     }
 
-    // 2️⃣ Fetch user using JWT
+    // 2 Fetch user using JWT
     const user = await getCurrentUser();
     setUser(user);
   };
@@ -193,7 +193,7 @@ const handleSaveLearning = async () => {
   return (
       <BrowserRouter>
     <Routes>
-      {/* 🔐 OAuth success route */}
+      {/*  OAuth success route */}
       <Route
         path="/auth/success"
         element={
@@ -201,7 +201,7 @@ const handleSaveLearning = async () => {
         }
       />
 
-      {/* 🏠 Main App */}
+      {/*  Main App */}
       <Route
         path="/*"
         element={

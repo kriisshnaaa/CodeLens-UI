@@ -1,5 +1,5 @@
 export default function IntroOverlay({ show }) {
-  if (!show) return null; // 🔥 THIS IS THE FIX
+  if (!show) return null; //  THIS IS THE FIX
 
   return (
     <div
