@@ -264,7 +264,7 @@ const handleSaveWithFeedback = async () => {
             </button>
           </div>
 
-          {/* CONTENT */}
+          {/* WHOLE CONTENT */}
           <div className="ai-explanation-content">
             <ReactMarkdown>{explanation}</ReactMarkdown>
 
