@@ -202,7 +202,7 @@ const handleSaveWithFeedback = async () => {
 </div>
           <ReactMarkdown>{explanation}</ReactMarkdown>
 
-          {/* CHAT (COLLAPSED) */}
+          {/* CHAT  */}
           <AIChat code={code} explanation={explanation} onAppendExplanation={onAppendExplanation}/>
         </div>
       )}
