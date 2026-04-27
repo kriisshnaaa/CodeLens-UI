@@ -33,7 +33,7 @@ export default function App() {
   const [avatarError, setAvatarError] = useState(false);
 
 
- 
+
 /* ---------------- AUTH ---------------- */
 useEffect(() => {
   const initAuth = async () => {
@@ -119,7 +119,7 @@ useEffect(() => {
 
   const stats = tree ? countNodes(tree) : null;
 
-  /* ---------------- FILE READ ---------------- */
+  /* ---------------- FILE READ METHOD ---------------- */
   const handleFileClick = async (filePath) => {
     try {
       const res = await fetch(`${import.meta.env.VITE_API_URL}/api/read-file`, {
