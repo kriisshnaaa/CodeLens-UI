@@ -33,7 +33,7 @@ export default function App() {
   const [avatarError, setAvatarError] = useState(false);
 
 
-  /* ---------------- AUTH ---------------- */
+ 
 /* ---------------- AUTH ---------------- */
 useEffect(() => {
   const initAuth = async () => {
