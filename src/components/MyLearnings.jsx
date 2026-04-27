@@ -43,7 +43,7 @@ fetch(`${import.meta.env.VITE_API_URL}/save/my`, {
     <div
       style={{
         display: "flex",
-        gap: 40,              // ✅ better spacing
+        gap: 40,              //  better spacing
         height: "100%",
         alignItems: "flex-start",
         overflow:"hidden"
