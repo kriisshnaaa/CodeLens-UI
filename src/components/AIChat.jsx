@@ -80,7 +80,7 @@ ${data.answer}
         </button>
       </div>
 
-      {/* CHATGPT-LIKE FEEDBACK */}
+      {/* CHATGPT - LIKE FEEDBACK */}
       {loading && (
         <div style={{ marginTop: 12, opacity: 0.8 }}>
           <strong>You:</strong> {lastQuestion}
